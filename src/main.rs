@@ -175,6 +175,7 @@
 
 // mod second;
 mod third;
+mod truct;
 
 fn main() {
     println!("End of second package...");
@@ -183,6 +184,8 @@ fn main() {
     // print_country(country);
     let mut country = String::from("Austria");
     add_hungary(&mut country);
+
+    truct::main_truct();
 }
 
 fn add_hungary(country_name: &mut String) {
