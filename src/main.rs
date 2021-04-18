@@ -178,6 +178,9 @@ mod third;
 mod truct;
 
 fn main() {
+    // this is not required statement print
+    println!("not for working and placement");
+    
     println!("End of second package...");
     // let country = String::from("Austria");
     // let country = print_country(country); // we have to use let here now to get the String back
